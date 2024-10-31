@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>E-commerce website</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+     rel="stylesheet"
+    />
+</head>
+<body>
+    <!----header content---->
+   <header>
+    <!-----Navigation bar ------>
+   <div class="nav container">
+     <!------menu icon------->
+     <i class="bx bx-menu" id="menu-icon"></i>
+     <!---logo---->
+     <a href="index.html" class="logo">Shopping</a>
+     <!----Navbar--->
+     <div class="navbar">
+        <a href="men.html" class="navlink">Men</a>
+        <a href="women.html" class="navlink">Women</a>
+        <a href="kid.html" class="navlink">Kids</a>
+     </div>
+     <!------Cart icon------->
+     <a href="cart.html">
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+     </a>
+   </div>
+   </header> 
+   <!----Home page structure------->
+   <section class="home" id="home">
+       <div class="home-image container">
+        <img src="Images/banner_women.png" alt="">
+       </div>
+   </section>
+   <section class="products container" id="products">
+      <!-------Listi of product-------->
+   <h2 class="heading">All Collections</h2>
+   <div class="product-container" id="productList">
+     
+   </div>
+   </section>
+   <!-----link html and javascript------>
+   <script src="js/script.js"></script>
+</body>
+</html>
